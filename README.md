@@ -32,14 +32,14 @@ The dataset used is IBM’s publicly available HR analytics data, consisting of 
   - Decision Tree for model training and classification
 
 - How to Use
-To run the application locally:
-Clone the repository
-Install dependencies using pip install -r requirements.txt
-Run the Streamlit app with streamlit run app.py
-Alternatively, access the live version hosted on Streamlit Cloud.
+  -  To run the application locally:
+    - Clone the repository
+    - Install dependencies using pip install -r requirements.txt
+    - Run the Streamlit app with streamlit run app.py
+    - Alternatively, access the live version hosted on Streamlit Cloud.
 
 - Future Improvements
-Introduce ensemble models (Random Forest, XGBoost) for better generalization.
-Balance the dataset using techniques like SMOTE.
-Add user input forms to simulate attrition predictions for new employees.
-Extend the analysis with SHAP values to improve model explainability.
+  - Introduce ensemble models (Random Forest, XGBoost) for better generalization.
+  - Balance the dataset using techniques like SMOTE.
+  - Add user input forms to simulate attrition predictions for new employees.
+  - Extend the analysis with SHAP values to improve model explainability.
