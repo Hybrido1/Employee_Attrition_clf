@@ -8,28 +8,28 @@ The primary objective of this project is to gain insights into employee attritio
 The dataset used is IBM’s publicly available HR analytics data, consisting of 1,470 employee records and 35 features, including demographic details, work-related attributes, compensation, job satisfaction, and performance scores.
 
 - Key Analysis and Insights
-Unbalanced Attrition: Only 16.12% of employees in the dataset had left the company.
-Influencing Factors: Lower income, high job involvement, poor work-life balance, frequent business travel, and overtime were found to correlate with higher attrition.
-Demographic Trends: Employees under 40 and those living farther from the office were more likely to leave. Females showed different patterns of tenure and distance-related attrition compared to males.
+  - Unbalanced Attrition: Only 16.12% of employees in the dataset had left the company.
+  - Influencing Factors: Lower income, high job involvement, poor work-life balance, frequent business travel, and overtime were found to correlate with higher attrition.
+  - Demographic Trends: Employees under 40 and those living farther from the office were more likely to leave. Females showed different patterns of tenure and distance-related attrition compared to males.
 
 - Machine Learning Approach
-Features were preprocessed using label encoding and one-hot encoding for categorical variables.
-A Decision Tree classifier was developed and tuned using GridSearchCV with cross-validation.
-Model achieved an accuracy of approximately 84% on test data.
-ROC-AUC analysis and confusion matrix were used for performance evaluation.
-Visualizations include decision tree plots, distribution charts, and correlation heatmaps.
+  - Features were preprocessed using label encoding and one-hot encoding for categorical variables.
+  - A Decision Tree classifier was developed and tuned using GridSearchCV with cross-validation.
+  - Model achieved an accuracy of approximately 84% on test data.
+  - ROC-AUC analysis and confusion matrix were used for performance evaluation.
+  - Visualizations include decision tree plots, distribution charts, and correlation heatmaps.
 
 - Deployment
-The Streamlit web application enables users to:
-Explore how various attributes affect attrition
-Interact with graphical plots generated using Seaborn and Matplotlib
-Predict attrition using user-provided inputs
+  - The Streamlit web application enables users to:
+  - Explore how various attributes affect attrition
+  - Interact with graphical plots generated using Seaborn and Matplotlib
+  - Predict attrition using user-provided inputs
 
 - Tech Stack
-Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-Streamlit for web deployment
-Google Colab for notebook-based exploration
-Decision Tree for model training and classification
+  - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+  - Streamlit for web deployment
+  - Google Colab for notebook-based exploration
+  - Decision Tree for model training and classification
 
 - How to Use
 To run the application locally:
